@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="internal_player"
+            android:summary="Toggle internal player"
+            android:title="Internal player" />
+        <ListPreference
+            android:defaultValue="-1"
+            android:entries="@array/pref_start_screen_titles"
+            android:entryValues="@array/pref_start_screen_values"
+            android:key="start_screen"
+            android:negativeButtonText="Close"
+            android:summary="Select application start"
+            android:title="Start screen" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Storage">
+        <Preference
+            android:key="clear_cache"
+            android:summary="Removes anime metadata"
+            android:title="Clear cache" />
+        <Preference
+            android:key="clear_saved"
+            android:summary="Removes saved anime"
+            android:title="Clear saved anime" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Other">
+        <Preference
+            android:key="update"
+            android:summary="v1.1"
+            android:title="Check for updates" />
+        <Preference
+            android:key="contact"
+            android:summary="nadeem.ahmd@hotmail.com"
+            android:title="Contact" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

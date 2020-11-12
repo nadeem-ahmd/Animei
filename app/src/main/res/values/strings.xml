@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Animei</string>
+    <string name="build">v1.1</string>
+    <string name="developer">Nadeem Ahmed</string>
+    <string name="contact">nadeem.ahmd@hotmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="pref_start_screen_titles">
+        <item>Popular</item>
+        <item>Saved</item>
+    </string-array>
+    <string-array name="pref_start_screen_values">
+        <item>-1</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="title_activity_anime">Anime</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="use_internal_player">Use internal player</string>
+    <string name="settings_title">Settings</string>
+    <string name="no_episodes_found">No episodes found</string>
+    <string name="anime_cover">Anime cover</string>
+    <string name="you_haven_t_saved_anything">You haven\'t saved anything</string>
+    <string name="search_title">Search</string>
+    <string name="popular_title">Popular</string>
+    <string name="saved_title">Saved</string>
+
+</resources>
